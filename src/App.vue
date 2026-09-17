@@ -183,9 +183,10 @@ onBeforeUnmount(() => {
 .change-player-link {
   border: none;
   background: transparent;
-  color: #3b82f6;
-  font-weight: 700;
-  font-size: 0.75rem;
+  color: #999;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 0.8rem;
   padding: 4px 2px;
 }
 
