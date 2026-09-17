@@ -1,0 +1,33 @@
+:root {
+  --green: #6aaa64;
+  --yellow: #c9b458;
+  --grey: #787c7e;
+  --bg: #ffffff;
+  --border-empty: #d3d6da;
+  --border-filled: #878a8c;
+  --text-dark: #1a1a1b;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text-dark);
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+button {
+  font-family: inherit;
+}
